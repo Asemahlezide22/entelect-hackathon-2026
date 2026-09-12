@@ -1,0 +1,69 @@
+{
+ "best": [
+  {
+   "err": 1.9480400844783743,
+   "opts": {
+    "displace": "rank_gt",
+    "mature": "ge",
+    "crosshatch": "diagonal",
+    "vonneumann": "diamond",
+    "drain_dead": 0.5,
+    "plantable_terrains": [
+     0
+    ]
+   }
+  },
+  {
+   "err": 2.010532549533082,
+   "opts": {
+    "displace": "rank_gt",
+    "mature": "gt",
+    "crosshatch": "diagonal",
+    "vonneumann": "diamond",
+    "drain_dead": 0.5,
+    "plantable_terrains": [
+     0
+    ]
+   }
+  },
+  {
+   "err": 2.11490882449117,
+   "opts": {
+    "displace": "never",
+    "mature": "gt",
+    "crosshatch": "diagonal",
+    "vonneumann": "diamond",
+    "drain_dead": 0.5,
+    "plantable_terrains": [
+     0
+    ]
+   }
+  },
+  {
+   "err": 2.2129143090723615,
+   "opts": {
+    "displace": "never",
+    "mature": "gt",
+    "crosshatch": "star",
+    "vonneumann": "diamond",
+    "drain_dead": 0.5,
+    "plantable_terrains": [
+     0
+    ]
+   }
+  },
+  {
+   "err": 2.279607415444277,
+   "opts": {
+    "displace": "rank_gt",
+    "mature": "gt",
+    "crosshatch": "star",
+    "vonneumann": "diamond",
+    "drain_dead": 0.5,
+    "plantable_terrains": [
+     0
+    ]
+   }
+  }
+ ]
+}

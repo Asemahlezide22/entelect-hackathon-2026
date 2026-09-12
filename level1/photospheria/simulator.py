@@ -232,7 +232,17 @@ def simulate(world, actions, cfg, record_history=False):
                            for dr in (-1, 0, 1) for dc in (-1, 0, 1)
                            if not (dr == 0 and dc == 0)):
                         continue
-                incoming[t] = pi
+                # BUGFIX (validated against the official Level 3 log): when
+                # several plants spread into the same cell on the same tick,
+                # the HIGHEST invasiveness_rank wins (p.6), not whichever
+                # source happened to be scanned last.  The previous "last
+                # writer wins" let Dwarf Sunflower (rank 4) steal cells from
+                # Oak Tree (rank 10); the official solver gave Oak 14,797 cells
+                # on Level 3 where we predicted 4,373.
+                cur = incoming.get(t)
+                if cur is None or (get_plant(pi).invasiveness_rank
+                                   > get_plant(cur).invasiveness_rank):
+                    incoming[t] = pi
 
         for t in sorted(incoming):
             attacker = incoming[t]

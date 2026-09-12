@@ -33,7 +33,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 from photospheria import plants, solution, world as world_mod   # noqa: E402
 from photospheria.config import SimConfig                        # noqa: E402
-from strategies import level2_ladder, phased_paint               # noqa: E402
+from strategies import phased_paint, territory                   # noqa: E402
 
 # Least -> most invasive.  v1 plants in this order so the species that can
 # overwrite others go in last and have the fewest ticks to act.
@@ -78,8 +78,19 @@ def build_v1(world, terrains=(0, 1, 2), last_tick=None, verbose=True):
 
 def main(argv=None):
     ap = argparse.ArgumentParser(description="Generate the Level 1 solution JSON")
-    ap.add_argument("--strategy", choices=("v1", "v2", "l2"), default="v2",
-                    help="v1/v2 = Level-1 style paint; l2 = Level-2 unlock ladder")
+    ap.add_argument("--strategy", choices=("v1", "v2", "territory"), default="v2",
+                    help="territory = one species per band (best on the big boards)")
+    ap.add_argument("--stride", default="4",
+                    help="lattice spacing; either one int, or per-species "
+                         "as plant:stride pairs e.g. 1:6,2:1,5:2,6:3,12:5")
+    ap.add_argument("--seed-start", type=int, default=None)
+    ap.add_argument("--bands", default=None,
+                    help="territory: comma list of plant indices, one per band "
+                         "(default 1,2,5,6,12)")
+    ap.add_argument("--late-bands", default="",
+                    help="territory: indices seeded later, once their unlock "
+                         "condition has been satisfied by the earlier bands")
+    ap.add_argument("--late-tick", type=int, default=None)
     ap.add_argument("--level", default="data/level1.json")
     ap.add_argument("--out", default="out/solution.json")
     ap.add_argument("--terrains", default="0,1,2")
@@ -92,16 +103,6 @@ def main(argv=None):
                          "(no benefit at early-tick 401; kept for experiments)")
     ap.add_argument("--no-hedge", action="store_true",
                     help="v2 only: do not aim at the cells level1.json omits")
-    ap.add_argument("--grass-fill", type=int, default=None,
-                    help="l2 only: tick at which to seed the Grass lattice that "
-                         "fills cells the paint budget cannot reach (big boards)")
-    ap.add_argument("--carpet-cycles", type=int, default=5)
-    ap.add_argument("--carpet", default="cheap-counts",
-                    help="l2 only: which unlock carpet to use; see "
-                         "strategies/level2_ladder.CARPET_CANDIDATES")
-    ap.add_argument("--paint-start", type=int, default=None,
-                    help="l2 only: first tick of the scored paint "
-                         "(defaults to T-99, the nutrient-clock limit)")
     ap.add_argument("--slack", type=int, default=0,
                     help="v2: relax the late-phase deadlines by N ticks")
     ap.add_argument("--early", default=None,
@@ -122,22 +123,30 @@ def main(argv=None):
         print()
         print("strategy: %s" % args.strategy)
 
-    if args.strategy == "l2":
-        # Level 2: animals are on, so the species count - not coverage - is the
-        # dominant term.  Runs the trigger carpet, discovers what unlocks, then
-        # paints with deadline awareness.  See strategies/level2_ladder.py.
-        paint_start = (args.paint_start if args.paint_start is not None
-                       else world.ticks - 99)
-        sol, result = level2_ladder.build(
-            world, SimConfig(plantable_terrains=terrains),
-            terrains=terrains, paint_start=paint_start,
-            carpet_cycles=args.carpet_cycles, rounds=2 if args.grass_fill else 3,
-            grass_fill_tick=args.grass_fill,
-            carpet_mix=level2_ladder.CARPET_CANDIDATES[args.carpet],
-            verbose=not args.quiet)
+    if args.strategy == "territory":
+        # One species per band: each expands into its OWN empty space instead
+        # of contesting the same cells, so the final counts track band area -
+        # which we make equal, and equal counts is what maximises entropy.
+        seed = args.seed_start if args.seed_start is not None else world.ticks - 99
+        st = (int(args.stride) if ":" not in args.stride else
+              {int(k): int(v) for k, v in
+               (pair.split(":") for pair in args.stride.split(","))})
+        bands = ([int(x) for x in args.bands.split(",")] if args.bands
+                 else list(territory.STARTERS))
+        late = [int(x) for x in args.late_bands.split(",") if x.strip()]
+        early = [b for b in bands if b not in late]
+        cells = territory.bands(territory.plantable(world), len(bands), "col")
+        sol = territory.build(world, species=early, stride=st, seed_start=seed,
+                              band_cells=cells[:len(early)])
+        # Late bands hold species whose unlock needs coverage the early bands
+        # must build first - e.g. Razorgrass needs Grass coverage > 0.05.
+        lt = args.late_tick if args.late_tick is not None else seed + 29
+        for j, sp in enumerate(late):
+            sol = territory.build(world, species=[sp], stride=st, seed_start=lt,
+                                  sol=sol, band_cells=[cells[len(early) + j]])
         if not args.quiet:
-            from photospheria import scoring
-            print(scoring.score(result))
+            print("territory: stride=%s seed_start=%d actions=%d"
+                  % (st, seed, sol.total_actions()))
     elif args.strategy == "v1":
         sol = build_v1(world, terrains=terrains, last_tick=args.last_tick,
                        verbose=not args.quiet)

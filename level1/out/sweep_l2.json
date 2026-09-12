@@ -1,0 +1,1178 @@
+[
+ {
+  "params": {
+   "seed_tick": 0,
+   "cap": 4,
+   "finish_ticks": 99,
+   "paint": "rose"
+  },
+  "worst": 0.3412579494894056,
+  "mean": 0.3412760711493936,
+  "best": 0.3412941928093816,
+  "actions": 2847
+ },
+ {
+  "params": {
+   "seed_tick": 62,
+   "cap": 4,
+   "finish_ticks": 99,
+   "paint": "rose"
+  },
+  "worst": 0.3412579494894056,
+  "mean": 0.3412760711493936,
+  "best": 0.3412941928093816,
+  "actions": 2847
+ },
+ {
+  "params": {
+   "seed_tick": 125,
+   "cap": 4,
+   "finish_ticks": 99,
+   "paint": "rose"
+  },
+  "worst": 0.3412579494894056,
+  "mean": 0.3412760711493936,
+  "best": 0.3412941928093816,
+  "actions": 2847
+ },
+ {
+  "params": {
+   "seed_tick": 187,
+   "cap": 4,
+   "finish_ticks": 99,
+   "paint": "rose"
+  },
+  "worst": 0.33944858698231284,
+  "mean": 0.34037138989584725,
+  "best": 0.3412941928093816,
+  "actions": 2847
+ },
+ {
+  "params": {
+   "seed_tick": 0,
+   "cap": 12,
+   "finish_ticks": 99,
+   "paint": "rr"
+  },
+  "worst": 0.3332549960905948,
+  "mean": 0.3335371710591364,
+  "best": 0.33381934602767804,
+  "actions": 2194
+ },
+ {
+  "params": {
+   "seed_tick": 62,
+   "cap": 12,
+   "finish_ticks": 99,
+   "paint": "rr"
+  },
+  "worst": 0.3332549960905948,
+  "mean": 0.3335371710591364,
+  "best": 0.33381934602767804,
+  "actions": 2194
+ },
+ {
+  "params": {
+   "seed_tick": 125,
+   "cap": 12,
+   "finish_ticks": 99,
+   "paint": "rr"
+  },
+  "worst": 0.3332549960905948,
+  "mean": 0.3335371710591364,
+  "best": 0.33381934602767804,
+  "actions": 2194
+ },
+ {
+  "params": {
+   "seed_tick": 187,
+   "cap": 12,
+   "finish_ticks": 99,
+   "paint": "rr"
+  },
+  "worst": 0.3315595409282849,
+  "mean": 0.3319726010184987,
+  "best": 0.3323856611087124,
+  "actions": 2194
+ },
+ {
+  "params": {
+   "seed_tick": 0,
+   "cap": 6,
+   "finish_ticks": 99,
+   "paint": "rr"
+  },
+  "worst": 0.3314862502831941,
+  "mean": 0.33787260661352375,
+  "best": 0.3442589629438534,
+  "actions": 2457
+ },
+ {
+  "params": {
+   "seed_tick": 62,
+   "cap": 6,
+   "finish_ticks": 99,
+   "paint": "rr"
+  },
+  "worst": 0.3314862502831941,
+  "mean": 0.33787260661352375,
+  "best": 0.3442589629438534,
+  "actions": 2457
+ },
+ {
+  "params": {
+   "seed_tick": 125,
+   "cap": 6,
+   "finish_ticks": 99,
+   "paint": "rr"
+  },
+  "worst": 0.3314862502831941,
+  "mean": 0.33787260661352375,
+  "best": 0.3442589629438534,
+  "actions": 2457
+ },
+ {
+  "params": {
+   "seed_tick": 0,
+   "cap": 16,
+   "finish_ticks": 99,
+   "paint": "rr"
+  },
+  "worst": 0.32832197850187467,
+  "mean": 0.3285665500172025,
+  "best": 0.3288111215325303,
+  "actions": 2107
+ },
+ {
+  "params": {
+   "seed_tick": 62,
+   "cap": 16,
+   "finish_ticks": 99,
+   "paint": "rr"
+  },
+  "worst": 0.32832197850187467,
+  "mean": 0.3285665500172025,
+  "best": 0.3288111215325303,
+  "actions": 2107
+ },
+ {
+  "params": {
+   "seed_tick": 125,
+   "cap": 16,
+   "finish_ticks": 99,
+   "paint": "rr"
+  },
+  "worst": 0.32664898214993865,
+  "mean": 0.3277300518412345,
+  "best": 0.3288111215325303,
+  "actions": 2107
+ },
+ {
+  "params": {
+   "seed_tick": 0,
+   "cap": 4,
+   "finish_ticks": 99,
+   "paint": "rr"
+  },
+  "worst": 0.3241982393388616,
+  "mean": 0.3304577270167129,
+  "best": 0.33671721469456417,
+  "actions": 2847
+ },
+ {
+  "params": {
+   "seed_tick": 62,
+   "cap": 4,
+   "finish_ticks": 99,
+   "paint": "rr"
+  },
+  "worst": 0.3241982393388616,
+  "mean": 0.3304577270167129,
+  "best": 0.33671721469456417,
+  "actions": 2847
+ },
+ {
+  "params": {
+   "seed_tick": 125,
+   "cap": 4,
+   "finish_ticks": 99,
+   "paint": "rr"
+  },
+  "worst": 0.3241982393388616,
+  "mean": 0.3304577270167129,
+  "best": 0.33671721469456417,
+  "actions": 2847
+ },
+ {
+  "params": {
+   "seed_tick": 0,
+   "cap": 24,
+   "finish_ticks": 99,
+   "paint": "rr"
+  },
+  "worst": 0.3202654043254236,
+  "mean": 0.3232584068819385,
+  "best": 0.3262514094384535,
+  "actions": 2072
+ },
+ {
+  "params": {
+   "seed_tick": 62,
+   "cap": 24,
+   "finish_ticks": 99,
+   "paint": "rr"
+  },
+  "worst": 0.3202654043254236,
+  "mean": 0.3232584068819385,
+  "best": 0.3262514094384535,
+  "actions": 2072
+ },
+ {
+  "params": {
+   "seed_tick": 0,
+   "cap": 6,
+   "finish_ticks": 99,
+   "paint": "rose"
+  },
+  "worst": 0.3201154763652653,
+  "mean": 0.32893708049487513,
+  "best": 0.33775868462448494,
+  "actions": 2457
+ },
+ {
+  "params": {
+   "seed_tick": 62,
+   "cap": 6,
+   "finish_ticks": 99,
+   "paint": "rose"
+  },
+  "worst": 0.3201154763652653,
+  "mean": 0.32893708049487513,
+  "best": 0.33775868462448494,
+  "actions": 2457
+ },
+ {
+  "params": {
+   "seed_tick": 125,
+   "cap": 6,
+   "finish_ticks": 99,
+   "paint": "rose"
+  },
+  "worst": 0.3201154763652653,
+  "mean": 0.32893708049487513,
+  "best": 0.33775868462448494,
+  "actions": 2457
+ },
+ {
+  "params": {
+   "seed_tick": 187,
+   "cap": 6,
+   "finish_ticks": 99,
+   "paint": "rose"
+  },
+  "worst": 0.3201154763652653,
+  "mean": 0.32893708049487513,
+  "best": 0.33775868462448494,
+  "actions": 2457
+ },
+ {
+  "params": {
+   "seed_tick": 0,
+   "cap": 8,
+   "finish_ticks": 99,
+   "paint": "rr"
+  },
+  "worst": 0.3186139158242812,
+  "mean": 0.31885054522961476,
+  "best": 0.3190871746349483,
+  "actions": 2289
+ },
+ {
+  "params": {
+   "seed_tick": 62,
+   "cap": 8,
+   "finish_ticks": 99,
+   "paint": "rr"
+  },
+  "worst": 0.3186139158242812,
+  "mean": 0.31885054522961476,
+  "best": 0.3190871746349483,
+  "actions": 2289
+ },
+ {
+  "params": {
+   "seed_tick": 125,
+   "cap": 8,
+   "finish_ticks": 99,
+   "paint": "rr"
+  },
+  "worst": 0.3186139158242812,
+  "mean": 0.31885054522961476,
+  "best": 0.3190871746349483,
+  "actions": 2289
+ },
+ {
+  "params": {
+   "seed_tick": 0,
+   "cap": 32,
+   "finish_ticks": 99,
+   "paint": "rr"
+  },
+  "worst": 0.3182906000750181,
+  "mean": 0.32688857579073133,
+  "best": 0.3354865515064446,
+  "actions": 2052
+ },
+ {
+  "params": {
+   "seed_tick": 62,
+   "cap": 32,
+   "finish_ticks": 99,
+   "paint": "rr"
+  },
+  "worst": 0.3182906000750181,
+  "mean": 0.32688857579073133,
+  "best": 0.3354865515064446,
+  "actions": 2052
+ },
+ {
+  "params": {
+   "seed_tick": 187,
+   "cap": 16,
+   "finish_ticks": 99,
+   "paint": "rr"
+  },
+  "worst": 0.31602507212197417,
+  "mean": 0.31962093979297207,
+  "best": 0.32321680746396997,
+  "actions": 2107
+ },
+ {
+  "params": {
+   "seed_tick": 125,
+   "cap": 24,
+   "finish_ticks": 99,
+   "paint": "rr"
+  },
+  "worst": 0.31582077250082446,
+  "mean": 0.321036090969639,
+  "best": 0.3262514094384535,
+  "actions": 2072
+ },
+ {
+  "params": {
+   "seed_tick": 187,
+   "cap": 6,
+   "finish_ticks": 99,
+   "paint": "rr"
+  },
+  "worst": 0.3148937899294784,
+  "mean": 0.32893514775974053,
+  "best": 0.3429765055900026,
+  "actions": 2457
+ },
+ {
+  "params": {
+   "seed_tick": 125,
+   "cap": 32,
+   "finish_ticks": 99,
+   "paint": "rr"
+  },
+  "worst": 0.3142842471773022,
+  "mean": 0.324281553962842,
+  "best": 0.3342788607483817,
+  "actions": 2052
+ },
+ {
+  "params": {
+   "seed_tick": 187,
+   "cap": 8,
+   "finish_ticks": 99,
+   "paint": "rr"
+  },
+  "worst": 0.30823556307506966,
+  "mean": 0.3126513274068034,
+  "best": 0.31706709173853714,
+  "actions": 2289
+ },
+ {
+  "params": {
+   "seed_tick": 187,
+   "cap": 24,
+   "finish_ticks": 99,
+   "paint": "rr"
+  },
+  "worst": 0.3082279390502228,
+  "mean": 0.3125025517914053,
+  "best": 0.31677716453258775,
+  "actions": 2072
+ },
+ {
+  "params": {
+   "seed_tick": 187,
+   "cap": 32,
+   "finish_ticks": 99,
+   "paint": "rr"
+  },
+  "worst": 0.29999684183436265,
+  "mean": 0.3023719873232138,
+  "best": 0.304747132812065,
+  "actions": 2052
+ },
+ {
+  "params": {
+   "seed_tick": 0,
+   "cap": 8,
+   "finish_ticks": 99,
+   "paint": "rose"
+  },
+  "worst": 0.2970341571294053,
+  "mean": 0.3127128249213078,
+  "best": 0.3283914927132103,
+  "actions": 2289
+ },
+ {
+  "params": {
+   "seed_tick": 62,
+   "cap": 8,
+   "finish_ticks": 99,
+   "paint": "rose"
+  },
+  "worst": 0.2970341571294053,
+  "mean": 0.3127128249213078,
+  "best": 0.3283914927132103,
+  "actions": 2289
+ },
+ {
+  "params": {
+   "seed_tick": 125,
+   "cap": 8,
+   "finish_ticks": 99,
+   "paint": "rose"
+  },
+  "worst": 0.2970341571294053,
+  "mean": 0.3127128249213078,
+  "best": 0.3283914927132103,
+  "actions": 2289
+ },
+ {
+  "params": {
+   "seed_tick": 187,
+   "cap": 8,
+   "finish_ticks": 99,
+   "paint": "rose"
+  },
+  "worst": 0.2970341571294053,
+  "mean": 0.3127128249213078,
+  "best": 0.3283914927132103,
+  "actions": 2289
+ },
+ {
+  "params": {
+   "seed_tick": 187,
+   "cap": 32,
+   "finish_ticks": 99,
+   "paint": "rose"
+  },
+  "worst": 0.2571039778937679,
+  "mean": 0.2784329473110697,
+  "best": 0.29976191672837155,
+  "actions": 2052
+ },
+ {
+  "params": {
+   "seed_tick": 187,
+   "cap": 24,
+   "finish_ticks": 99,
+   "paint": "rose"
+  },
+  "worst": 0.25521867539229426,
+  "mean": 0.2791024352950669,
+  "best": 0.30298619519783954,
+  "actions": 2072
+ },
+ {
+  "params": {
+   "seed_tick": 0,
+   "cap": 12,
+   "finish_ticks": 99,
+   "paint": "rose"
+  },
+  "worst": 0.2538693334862653,
+  "mean": 0.2797566338207742,
+  "best": 0.3056439341552832,
+  "actions": 2194
+ },
+ {
+  "params": {
+   "seed_tick": 62,
+   "cap": 12,
+   "finish_ticks": 99,
+   "paint": "rose"
+  },
+  "worst": 0.2538693334862653,
+  "mean": 0.2797566338207742,
+  "best": 0.3056439341552832,
+  "actions": 2194
+ },
+ {
+  "params": {
+   "seed_tick": 125,
+   "cap": 12,
+   "finish_ticks": 99,
+   "paint": "rose"
+  },
+  "worst": 0.2538693334862653,
+  "mean": 0.2797566338207742,
+  "best": 0.3056439341552832,
+  "actions": 2194
+ },
+ {
+  "params": {
+   "seed_tick": 187,
+   "cap": 12,
+   "finish_ticks": 99,
+   "paint": "rose"
+  },
+  "worst": 0.2538693334862653,
+  "mean": 0.2797566338207742,
+  "best": 0.3056439341552832,
+  "actions": 2194
+ },
+ {
+  "params": {
+   "seed_tick": 187,
+   "cap": 16,
+   "finish_ticks": 99,
+   "paint": "rose"
+  },
+  "worst": 0.2525525669069033,
+  "mean": 0.27861250716171493,
+  "best": 0.3046724474165266,
+  "actions": 2107
+ },
+ {
+  "params": {
+   "seed_tick": 125,
+   "cap": 16,
+   "finish_ticks": 99,
+   "paint": "rose"
+  },
+  "worst": 0.2511013866797059,
+  "mean": 0.27788691704811624,
+  "best": 0.3046724474165266,
+  "actions": 2107
+ },
+ {
+  "params": {
+   "seed_tick": 0,
+   "cap": 16,
+   "finish_ticks": 99,
+   "paint": "rose"
+  },
+  "worst": 0.24860664469576435,
+  "mean": 0.2766395460561455,
+  "best": 0.3046724474165266,
+  "actions": 2107
+ },
+ {
+  "params": {
+   "seed_tick": 62,
+   "cap": 16,
+   "finish_ticks": 99,
+   "paint": "rose"
+  },
+  "worst": 0.24860664469576435,
+  "mean": 0.2766395460561455,
+  "best": 0.3046724474165266,
+  "actions": 2107
+ },
+ {
+  "params": {
+   "seed_tick": 125,
+   "cap": 24,
+   "finish_ticks": 99,
+   "paint": "rose"
+  },
+  "worst": 0.24479553092675765,
+  "mean": 0.2742210716297626,
+  "best": 0.30364661233276763,
+  "actions": 2072
+ },
+ {
+  "params": {
+   "seed_tick": 250,
+   "cap": 4,
+   "finish_ticks": 99,
+   "paint": "rose"
+  },
+  "worst": 0.24472787427561804,
+  "mean": 0.273481569458934,
+  "best": 0.3022352646422499,
+  "actions": 2847
+ },
+ {
+  "params": {
+   "seed_tick": 125,
+   "cap": 32,
+   "finish_ticks": 99,
+   "paint": "rose"
+  },
+  "worst": 0.24443279075681773,
+  "mean": 0.27328007447811964,
+  "best": 0.3021273581994216,
+  "actions": 2052
+ },
+ {
+  "params": {
+   "seed_tick": 0,
+   "cap": 24,
+   "finish_ticks": 99,
+   "paint": "rose"
+  },
+  "worst": 0.24310932406653618,
+  "mean": 0.2733779681996519,
+  "best": 0.30364661233276763,
+  "actions": 2072
+ },
+ {
+  "params": {
+   "seed_tick": 62,
+   "cap": 24,
+   "finish_ticks": 99,
+   "paint": "rose"
+  },
+  "worst": 0.24310932406653618,
+  "mean": 0.2733779681996519,
+  "best": 0.30364661233276763,
+  "actions": 2072
+ },
+ {
+  "params": {
+   "seed_tick": 0,
+   "cap": 32,
+   "finish_ticks": 99,
+   "paint": "rose"
+  },
+  "worst": 0.2396908683015659,
+  "mean": 0.27154116245009535,
+  "best": 0.30339145659862476,
+  "actions": 2052
+ },
+ {
+  "params": {
+   "seed_tick": 62,
+   "cap": 32,
+   "finish_ticks": 99,
+   "paint": "rose"
+  },
+  "worst": 0.2396908683015659,
+  "mean": 0.27154116245009535,
+  "best": 0.30339145659862476,
+  "actions": 2052
+ },
+ {
+  "params": {
+   "seed_tick": 250,
+   "cap": 6,
+   "finish_ticks": 99,
+   "paint": "rose"
+  },
+  "worst": 0.23926798750081113,
+  "mean": 0.26605589840146043,
+  "best": 0.29284380930210974,
+  "actions": 2457
+ },
+ {
+  "params": {
+   "seed_tick": 250,
+   "cap": 24,
+   "finish_ticks": 99,
+   "paint": "rose"
+  },
+  "worst": 0.23332892696888274,
+  "mean": 0.24286998845196267,
+  "best": 0.2524110499350426,
+  "actions": 2072
+ },
+ {
+  "params": {
+   "seed_tick": 250,
+   "cap": 12,
+   "finish_ticks": 99,
+   "paint": "rose"
+  },
+  "worst": 0.22998855471653268,
+  "mean": 0.23650895418348628,
+  "best": 0.2430293536504399,
+  "actions": 2194
+ },
+ {
+  "params": {
+   "seed_tick": 250,
+   "cap": 32,
+   "finish_ticks": 99,
+   "paint": "rose"
+  },
+  "worst": 0.2265803662219272,
+  "mean": 0.23606890888718085,
+  "best": 0.2455574515524345,
+  "actions": 2052
+ },
+ {
+  "params": {
+   "seed_tick": 250,
+   "cap": 8,
+   "finish_ticks": 99,
+   "paint": "rose"
+  },
+  "worst": 0.22176825785601356,
+  "mean": 0.2479258778307741,
+  "best": 0.27408349780553465,
+  "actions": 2289
+ },
+ {
+  "params": {
+   "seed_tick": 187,
+   "cap": 4,
+   "finish_ticks": 99,
+   "paint": "rr"
+  },
+  "worst": 0.21801302827256758,
+  "mean": 0.27712122041687604,
+  "best": 0.3362294125611845,
+  "actions": 2847
+ },
+ {
+  "params": {
+   "seed_tick": 250,
+   "cap": 16,
+   "finish_ticks": 99,
+   "paint": "rose"
+  },
+  "worst": 0.21439759880404458,
+  "mean": 0.22915171610228816,
+  "best": 0.24390583340053174,
+  "actions": 2107
+ },
+ {
+  "params": {
+   "seed_tick": 312,
+   "cap": 12,
+   "finish_ticks": 99,
+   "paint": "rose"
+  },
+  "worst": 0.20831055088617353,
+  "mean": 0.22947740060096078,
+  "best": 0.25064425031574805,
+  "actions": 2194
+ },
+ {
+  "params": {
+   "seed_tick": 312,
+   "cap": 16,
+   "finish_ticks": 99,
+   "paint": "rose"
+  },
+  "worst": 0.15783636589729302,
+  "mean": 0.1775949594609466,
+  "best": 0.19735355302460017,
+  "actions": 2107
+ },
+ {
+  "params": {
+   "seed_tick": 312,
+   "cap": 24,
+   "finish_ticks": 99,
+   "paint": "rose"
+  },
+  "worst": 0.1556252604593403,
+  "mean": 0.18026859129466907,
+  "best": 0.20491192212999784,
+  "actions": 2072
+ },
+ {
+  "params": {
+   "seed_tick": 312,
+   "cap": 32,
+   "finish_ticks": 99,
+   "paint": "rose"
+  },
+  "worst": 0.15324821412435521,
+  "mean": 0.17729168146195134,
+  "best": 0.2013351487995475,
+  "actions": 2052
+ },
+ {
+  "params": {
+   "seed_tick": 250,
+   "cap": 24,
+   "finish_ticks": 99,
+   "paint": "rr"
+  },
+  "worst": 0.15064454127486968,
+  "mean": 0.16747471235565473,
+  "best": 0.18430488343643978,
+  "actions": 2072
+ },
+ {
+  "params": {
+   "seed_tick": 375,
+   "cap": 4,
+   "finish_ticks": 99,
+   "paint": "rr"
+  },
+  "worst": 0.1440575658745671,
+  "mean": 0.16802360848453635,
+  "best": 0.1919896510945056,
+  "actions": 2500
+ },
+ {
+  "params": {
+   "seed_tick": 375,
+   "cap": 12,
+   "finish_ticks": 99,
+   "paint": "rr"
+  },
+  "worst": 0.12209623839809149,
+  "mean": 0.16003116968260314,
+  "best": 0.1979661009671148,
+  "actions": 2194
+ },
+ {
+  "params": {
+   "seed_tick": 250,
+   "cap": 16,
+   "finish_ticks": 99,
+   "paint": "rr"
+  },
+  "worst": 0.11562196148158002,
+  "mean": 0.15072211966476415,
+  "best": 0.18582227784794828,
+  "actions": 2107
+ },
+ {
+  "params": {
+   "seed_tick": 312,
+   "cap": 6,
+   "finish_ticks": 99,
+   "paint": "rose"
+  },
+  "worst": 0.10536510252855304,
+  "mean": 0.1376846689603473,
+  "best": 0.17000423539214157,
+  "actions": 2457
+ },
+ {
+  "params": {
+   "seed_tick": 312,
+   "cap": 4,
+   "finish_ticks": 99,
+   "paint": "rose"
+  },
+  "worst": 0.10496119653902673,
+  "mean": 0.13871628437258116,
+  "best": 0.1724713722061356,
+  "actions": 2847
+ },
+ {
+  "params": {
+   "seed_tick": 375,
+   "cap": 32,
+   "finish_ticks": 99,
+   "paint": "rr"
+  },
+  "worst": 0.1031296395214729,
+  "mean": 0.20199638906235076,
+  "best": 0.3008631386032286,
+  "actions": 2065
+ },
+ {
+  "params": {
+   "seed_tick": 375,
+   "cap": 24,
+   "finish_ticks": 99,
+   "paint": "rr"
+  },
+  "worst": 0.10213842856293563,
+  "mean": 0.19972501352366895,
+  "best": 0.29731159848440225,
+  "actions": 2078
+ },
+ {
+  "params": {
+   "seed_tick": 250,
+   "cap": 32,
+   "finish_ticks": 99,
+   "paint": "rr"
+  },
+  "worst": 0.09960270756605025,
+  "mean": 0.13738916144792995,
+  "best": 0.17517561532980966,
+  "actions": 2052
+ },
+ {
+  "params": {
+   "seed_tick": 250,
+   "cap": 12,
+   "finish_ticks": 99,
+   "paint": "rr"
+  },
+  "worst": 0.09868073012676828,
+  "mean": 0.16808379558842854,
+  "best": 0.2374868610500888,
+  "actions": 2194
+ },
+ {
+  "params": {
+   "seed_tick": 375,
+   "cap": 12,
+   "finish_ticks": 99,
+   "paint": "rose"
+  },
+  "worst": 0.09620957037715522,
+  "mean": 0.14919125473250575,
+  "best": 0.20217293908785627,
+  "actions": 2194
+ },
+ {
+  "params": {
+   "seed_tick": 312,
+   "cap": 8,
+   "finish_ticks": 99,
+   "paint": "rose"
+  },
+  "worst": 0.09467947054866267,
+  "mean": 0.13626365948637761,
+  "best": 0.17784784842409257,
+  "actions": 2289
+ },
+ {
+  "params": {
+   "seed_tick": 375,
+   "cap": 16,
+   "finish_ticks": 99,
+   "paint": "rr"
+  },
+  "worst": 0.09070030783260735,
+  "mean": 0.18787008300603872,
+  "best": 0.2850398581794701,
+  "actions": 2108
+ },
+ {
+  "params": {
+   "seed_tick": 375,
+   "cap": 16,
+   "finish_ticks": 99,
+   "paint": "rose"
+  },
+  "worst": 0.08851894227389631,
+  "mean": 0.18241266262987405,
+  "best": 0.27630638298585175,
+  "actions": 2108
+ },
+ {
+  "params": {
+   "seed_tick": 250,
+   "cap": 6,
+   "finish_ticks": 99,
+   "paint": "rr"
+  },
+  "worst": 0.08685197484021596,
+  "mean": 0.17922399888906596,
+  "best": 0.27159602293791596,
+  "actions": 2457
+ },
+ {
+  "params": {
+   "seed_tick": 250,
+   "cap": 8,
+   "finish_ticks": 99,
+   "paint": "rr"
+  },
+  "worst": 0.08678766695866892,
+  "mean": 0.16392281700327999,
+  "best": 0.24105796704789104,
+  "actions": 2289
+ },
+ {
+  "params": {
+   "seed_tick": 375,
+   "cap": 32,
+   "finish_ticks": 99,
+   "paint": "rose"
+  },
+  "worst": 0.08561678855579034,
+  "mean": 0.19097714783605077,
+  "best": 0.2963375071163112,
+  "actions": 2065
+ },
+ {
+  "params": {
+   "seed_tick": 375,
+   "cap": 24,
+   "finish_ticks": 99,
+   "paint": "rose"
+  },
+  "worst": 0.08416341411407013,
+  "mean": 0.18790818243887705,
+  "best": 0.29165295076368397,
+  "actions": 2078
+ },
+ {
+  "params": {
+   "seed_tick": 312,
+   "cap": 6,
+   "finish_ticks": 99,
+   "paint": "rr"
+  },
+  "worst": 0.08323218566288342,
+  "mean": 0.11862255787972767,
+  "best": 0.15401293009657194,
+  "actions": 2457
+ },
+ {
+  "params": {
+   "seed_tick": 312,
+   "cap": 12,
+   "finish_ticks": 99,
+   "paint": "rr"
+  },
+  "worst": 0.08091038463323494,
+  "mean": 0.16453359907994558,
+  "best": 0.2481568135266562,
+  "actions": 2194
+ },
+ {
+  "params": {
+   "seed_tick": 375,
+   "cap": 8,
+   "finish_ticks": 99,
+   "paint": "rose"
+  },
+  "worst": 0.07974236531789744,
+  "mean": 0.14904048078967108,
+  "best": 0.21833859626144472,
+  "actions": 2289
+ },
+ {
+  "params": {
+   "seed_tick": 375,
+   "cap": 8,
+   "finish_ticks": 99,
+   "paint": "rr"
+  },
+  "worst": 0.07922145563186389,
+  "mean": 0.14865336493983922,
+  "best": 0.21808527424781451,
+  "actions": 2289
+ },
+ {
+  "params": {
+   "seed_tick": 312,
+   "cap": 16,
+   "finish_ticks": 99,
+   "paint": "rr"
+  },
+  "worst": 0.07680255414361911,
+  "mean": 0.11773180346963281,
+  "best": 0.15866105279564652,
+  "actions": 2107
+ },
+ {
+  "params": {
+   "seed_tick": 312,
+   "cap": 24,
+   "finish_ticks": 99,
+   "paint": "rr"
+  },
+  "worst": 0.07660380915155406,
+  "mean": 0.1138279664152129,
+  "best": 0.15105212367887172,
+  "actions": 2072
+ },
+ {
+  "params": {
+   "seed_tick": 312,
+   "cap": 8,
+   "finish_ticks": 99,
+   "paint": "rr"
+  },
+  "worst": 0.07094473337016985,
+  "mean": 0.1241145641261746,
+  "best": 0.17728439488217934,
+  "actions": 2289
+ },
+ {
+  "params": {
+   "seed_tick": 312,
+   "cap": 32,
+   "finish_ticks": 99,
+   "paint": "rr"
+  },
+  "worst": 0.07089480198779437,
+  "mean": 0.10965216229196054,
+  "best": 0.14840952259612672,
+  "actions": 2052
+ },
+ {
+  "params": {
+   "seed_tick": 250,
+   "cap": 4,
+   "finish_ticks": 99,
+   "paint": "rr"
+  },
+  "worst": 0.06815189745143492,
+  "mean": 0.16103335548875763,
+  "best": 0.25391481352608036,
+  "actions": 2847
+ },
+ {
+  "params": {
+   "seed_tick": 375,
+   "cap": 4,
+   "finish_ticks": 99,
+   "paint": "rose"
+  },
+  "worst": 0.06707054403919237,
+  "mean": 0.09826384709291924,
+  "best": 0.12945715014664613,
+  "actions": 2500
+ },
+ {
+  "params": {
+   "seed_tick": 375,
+   "cap": 6,
+   "finish_ticks": 99,
+   "paint": "rose"
+  },
+  "worst": 0.051095524788302135,
+  "mean": 0.12879829250043567,
+  "best": 0.20650106021256923,
+  "actions": 2457
+ },
+ {
+  "params": {
+   "seed_tick": 312,
+   "cap": 4,
+   "finish_ticks": 99,
+   "paint": "rr"
+  },
+  "worst": 0.05051243973166822,
+  "mean": 0.08990880457814854,
+  "best": 0.12930516942462886,
+  "actions": 2847
+ },
+ {
+  "params": {
+   "seed_tick": 375,
+   "cap": 6,
+   "finish_ticks": 99,
+   "paint": "rr"
+  },
+  "worst": 0.035392848854042216,
+  "mean": 0.11952541622657109,
+  "best": 0.20365798359909995,
+  "actions": 2457
+ }
+]

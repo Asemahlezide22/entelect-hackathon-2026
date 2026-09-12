@@ -16,3 +16,8 @@ venv/
 Thumbs.db
 desktop.ini
 .DS_Store
+
+# Scratch output from sweeps and calibration runs
+*.log
+*.bak*
+level1/out/*.json.*

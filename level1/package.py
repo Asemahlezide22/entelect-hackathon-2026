@@ -27,31 +27,21 @@ CODE = [
     "photospheria/__init__.py", "photospheria/config.py", "photospheria/plants.py",
     "photospheria/world.py", "photospheria/solution.py", "photospheria/scoring.py",
     "photospheria/simulator.py", "photospheria/unlocks.py",
-    "strategies/__init__.py",
+    "photospheria/fastsim.py", "photospheria/rules.py",
+    "strategies/__init__.py", "strategies/phased_paint.py",
+    "strategies/territory.py", "strategies/balanced.py",
+    "strategies/bands3.py", "sweep3.py", "calib2.py",
     "generate_solution.py", "validate_solution.py", "simulate_solution.py",
-    "package.py", "optimise_all.py", "photospheria/unlocks.py",
+    "bench.py", "sweep.py", "build_all.py", "package.py",
 ]
 
 LEVELS = {
-    1: {"level": "data/level1.json", "solution": "out/solution.json",
-        "strategy": "strategies/phased_paint.py",
-        "cmd": "py generate_solution.py --level data/level1.json "
-               "--out out/solution.json"},
-    2: {"level": "data/level2.json", "solution": "out/solution_level2.json",
-        "strategy": "strategies/phased_paint.py",
-        "cmd": "py generate_solution.py --level data/level2.json "
-               "--out out/solution_level2.json --terrains 0,1,2,3,4 "
-               "--early-tick 401 --slack 6 --early 1,2,6"},
-    3: {"level": "data/level3.json", "solution": "out/solution_level3.json",
-        "strategy": "strategies/phased_paint.py",
-        "cmd": "py generate_solution.py --level data/level3.json "
-               "--out out/solution_level3.json --terrains 0,1,2,3,4 "
-               "--early-tick 671 --slack 6 --early 1,2,6,5"},
-    4: {"level": "data/level4.json", "solution": "out/solution_level4.json",
-        "strategy": "strategies/phased_paint.py",
-        "cmd": "py generate_solution.py --level data/level4.json "
-               "--out out/solution_level4.json --terrains 0,1,2,3,4 "
-               "--early-tick 701 --slack 6 --early 1,2,6,5"},
+    n: {"level": "data/level%d.json" % n,
+        "solution": "out/solution.json" if n == 1
+                    else "out/solution_level%d.json" % n,
+        "strategy": "strategies/balanced.py",
+        "cmd": "py build_all.py --levels %d" % n}
+    for n in (1, 2, 3, 4)
 }
 
 README = """# Photospheria - Level {n}

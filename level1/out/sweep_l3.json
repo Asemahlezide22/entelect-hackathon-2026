@@ -1,0 +1,242 @@
+[
+ {
+  "params": {
+   "seed_tick": 0,
+   "cap": 4,
+   "finish_ticks": 99,
+   "paint": "rr"
+  },
+  "worst": 0.20305553422869388,
+  "mean": 0.21367562647727845,
+  "best": 0.22429571872586304,
+  "actions": 4317
+ },
+ {
+  "params": {
+   "seed_tick": 0,
+   "cap": 3,
+   "finish_ticks": 99,
+   "paint": "rr"
+  },
+  "worst": 0.185547591833774,
+  "mean": 0.20558488888559778,
+  "best": 0.22562218593742153,
+  "actions": 5810
+ },
+ {
+  "params": {
+   "seed_tick": 300,
+   "cap": 3,
+   "finish_ticks": 99,
+   "paint": "rr"
+  },
+  "worst": 0.185547591833774,
+  "mean": 0.20558488888559778,
+  "best": 0.22562218593742153,
+  "actions": 5810
+ },
+ {
+  "params": {
+   "seed_tick": 0,
+   "cap": 6,
+   "finish_ticks": 99,
+   "paint": "rr"
+  },
+  "worst": 0.16516664646413096,
+  "mean": 0.18466945472957724,
+  "best": 0.2041722629950235,
+  "actions": 3271
+ },
+ {
+  "params": {
+   "seed_tick": 300,
+   "cap": 6,
+   "finish_ticks": 99,
+   "paint": "rr"
+  },
+  "worst": 0.16466282569219823,
+  "mean": 0.18441754434361085,
+  "best": 0.2041722629950235,
+  "actions": 3271
+ },
+ {
+  "params": {
+   "seed_tick": 300,
+   "cap": 8,
+   "finish_ticks": 99,
+   "paint": "rr"
+  },
+  "worst": 0.15537691189722522,
+  "mean": 0.1869118245599689,
+  "best": 0.21844673722271263,
+  "actions": 2850
+ },
+ {
+  "params": {
+   "seed_tick": 0,
+   "cap": 8,
+   "finish_ticks": 99,
+   "paint": "rr"
+  },
+  "worst": 0.15447853180141158,
+  "mean": 0.1864626345120621,
+  "best": 0.21844673722271263,
+  "actions": 2850
+ },
+ {
+  "params": {
+   "seed_tick": 300,
+   "cap": 12,
+   "finish_ticks": 99,
+   "paint": "rr"
+  },
+  "worst": 0.1437939298973665,
+  "mean": 0.16550960452424454,
+  "best": 0.18722527915112258,
+  "actions": 2505
+ },
+ {
+  "params": {
+   "seed_tick": 0,
+   "cap": 12,
+   "finish_ticks": 99,
+   "paint": "rr"
+  },
+  "worst": 0.13410962427161438,
+  "mean": 0.16066745171136848,
+  "best": 0.18722527915112258,
+  "actions": 2505
+ },
+ {
+  "params": {
+   "seed_tick": 300,
+   "cap": 4,
+   "finish_ticks": 99,
+   "paint": "rr"
+  },
+  "worst": 0.11973921162102938,
+  "mean": 0.16139737292486162,
+  "best": 0.20305553422869388,
+  "actions": 4317
+ },
+ {
+  "params": {
+   "seed_tick": 300,
+   "cap": 8,
+   "finish_ticks": 99,
+   "paint": "rose"
+  },
+  "worst": 0.0011,
+  "mean": 0.021854712751098775,
+  "best": 0.042609425502197554,
+  "actions": 2850
+ },
+ {
+  "params": {
+   "seed_tick": 300,
+   "cap": 4,
+   "finish_ticks": 99,
+   "paint": "rose"
+  },
+  "worst": 0.0011,
+  "mean": 0.015684143633097402,
+  "best": 0.030268287266194807,
+  "actions": 4317
+ },
+ {
+  "params": {
+   "seed_tick": 0,
+   "cap": 12,
+   "finish_ticks": 99,
+   "paint": "rose"
+  },
+  "worst": 0.0011,
+  "mean": 0.015016613474240015,
+  "best": 0.02893322694848003,
+  "actions": 2505
+ },
+ {
+  "params": {
+   "seed_tick": 300,
+   "cap": 12,
+   "finish_ticks": 99,
+   "paint": "rose"
+  },
+  "worst": 0.0011,
+  "mean": 0.0019164438192062479,
+  "best": 0.0027328876384124954,
+  "actions": 2505
+ },
+ {
+  "params": {
+   "seed_tick": 300,
+   "cap": 6,
+   "finish_ticks": 99,
+   "paint": "rose"
+  },
+  "worst": 0.0011,
+  "mean": 0.0014852141874719576,
+  "best": 0.001870428374943915,
+  "actions": 3271
+ },
+ {
+  "params": {
+   "seed_tick": 0,
+   "cap": 3,
+   "finish_ticks": 99,
+   "paint": "rose"
+  },
+  "worst": 0.0011,
+  "mean": 0.0011,
+  "best": 0.0011,
+  "actions": 5810
+ },
+ {
+  "params": {
+   "seed_tick": 0,
+   "cap": 4,
+   "finish_ticks": 99,
+   "paint": "rose"
+  },
+  "worst": 0.0011,
+  "mean": 0.0011,
+  "best": 0.0011,
+  "actions": 4317
+ },
+ {
+  "params": {
+   "seed_tick": 0,
+   "cap": 6,
+   "finish_ticks": 99,
+   "paint": "rose"
+  },
+  "worst": 0.0011,
+  "mean": 0.0011,
+  "best": 0.0011,
+  "actions": 3271
+ },
+ {
+  "params": {
+   "seed_tick": 0,
+   "cap": 8,
+   "finish_ticks": 99,
+   "paint": "rose"
+  },
+  "worst": 0.0011,
+  "mean": 0.0011,
+  "best": 0.0011,
+  "actions": 2850
+ },
+ {
+  "params": {
+   "seed_tick": 300,
+   "cap": 3,
+   "finish_ticks": 99,
+   "paint": "rose"
+  },
+  "worst": 0.0011,
+  "mean": 0.0011,
+  "best": 0.0011,
+  "actions": 5810
+ }
+]

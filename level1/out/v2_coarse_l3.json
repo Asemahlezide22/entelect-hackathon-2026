@@ -1,0 +1,1762 @@
+[
+ {
+  "score": 0.08823867392679799,
+  "params": {
+   "species": [
+    1,
+    2,
+    5,
+    6,
+    12
+   ],
+   "stride": 4,
+   "seed_start": 680,
+   "waves": 1,
+   "wave_gap": 150,
+   "axis": "col",
+   "topup_start": 745,
+   "topup_stride": 1
+  },
+  "worst": 0.08823867392679799,
+  "C": 13584,
+  "H": 0.2883128150927412
+ },
+ {
+  "score": 0.08823867392679799,
+  "params": {
+   "species": [
+    1,
+    2,
+    5,
+    6,
+    12
+   ],
+   "stride": 4,
+   "seed_start": 680,
+   "waves": 3,
+   "wave_gap": 120,
+   "axis": "col",
+   "topup_start": 745,
+   "topup_stride": 1
+  },
+  "worst": 0.08823867392679799,
+  "C": 13584,
+  "H": 0.2883128150927412
+ },
+ {
+  "score": 0.08754628314844637,
+  "params": {
+   "species": [
+    1,
+    6,
+    2,
+    5,
+    12
+   ],
+   "stride": 4,
+   "seed_start": 680,
+   "waves": 1,
+   "wave_gap": 150,
+   "axis": "col",
+   "topup_start": 745,
+   "topup_stride": 1
+  },
+  "worst": 0.08754628314844637,
+  "C": 13770,
+  "H": 0.31639727758560865
+ },
+ {
+  "score": 0.08754628314844637,
+  "params": {
+   "species": [
+    1,
+    6,
+    2,
+    5,
+    12
+   ],
+   "stride": 4,
+   "seed_start": 680,
+   "waves": 3,
+   "wave_gap": 120,
+   "axis": "col",
+   "topup_start": 745,
+   "topup_stride": 1
+  },
+  "worst": 0.08754628314844637,
+  "C": 13770,
+  "H": 0.31639727758560865
+ },
+ {
+  "score": 0.08622523445739849,
+  "params": {
+   "species": [
+    1,
+    5,
+    12,
+    6,
+    2
+   ],
+   "stride": 4,
+   "seed_start": 680,
+   "waves": 1,
+   "wave_gap": 150,
+   "axis": "col",
+   "topup_start": 745,
+   "topup_stride": 1
+  },
+  "worst": 0.08622523445739849,
+  "C": 10197,
+  "H": 0.2706593303024992
+ },
+ {
+  "score": 0.08622523445739849,
+  "params": {
+   "species": [
+    1,
+    5,
+    12,
+    6,
+    2
+   ],
+   "stride": 4,
+   "seed_start": 680,
+   "waves": 3,
+   "wave_gap": 120,
+   "axis": "col",
+   "topup_start": 745,
+   "topup_stride": 1
+  },
+  "worst": 0.08622523445739849,
+  "C": 10197,
+  "H": 0.2706593303024992
+ },
+ {
+  "score": 0.08351672783503333,
+  "params": {
+   "species": [
+    1,
+    5,
+    12,
+    6,
+    2
+   ],
+   "stride": 4,
+   "seed_start": 680,
+   "waves": 1,
+   "wave_gap": 150,
+   "axis": "col",
+   "topup_start": null,
+   "topup_stride": 1
+  },
+  "worst": 0.08351672783503333,
+  "C": 9940,
+  "H": 0.2674020117672999
+ },
+ {
+  "score": 0.08351672783503333,
+  "params": {
+   "species": [
+    1,
+    5,
+    12,
+    6,
+    2
+   ],
+   "stride": 4,
+   "seed_start": 680,
+   "waves": 3,
+   "wave_gap": 120,
+   "axis": "col",
+   "topup_start": null,
+   "topup_stride": 1
+  },
+  "worst": 0.08351672783503333,
+  "C": 9940,
+  "H": 0.2674020117672999
+ },
+ {
+  "score": 0.0834511548313777,
+  "params": {
+   "species": [
+    12,
+    5,
+    2,
+    6,
+    1
+   ],
+   "stride": 6,
+   "seed_start": 500,
+   "waves": 3,
+   "wave_gap": 120,
+   "axis": "col",
+   "topup_start": null,
+   "topup_stride": 1
+  },
+  "worst": 0.0834511548313777,
+  "C": 10207,
+  "H": 0.2255308836712548
+ },
+ {
+  "score": 0.083017202065456,
+  "params": {
+   "species": [
+    12,
+    6,
+    2,
+    5,
+    1
+   ],
+   "stride": 4,
+   "seed_start": 680,
+   "waves": 1,
+   "wave_gap": 150,
+   "axis": "col",
+   "topup_start": 745,
+   "topup_stride": 1
+  },
+  "worst": 0.083017202065456,
+  "C": 13984,
+  "H": 0.22662149131040465
+ },
+ {
+  "score": 0.083017202065456,
+  "params": {
+   "species": [
+    12,
+    6,
+    2,
+    5,
+    1
+   ],
+   "stride": 4,
+   "seed_start": 680,
+   "waves": 3,
+   "wave_gap": 120,
+   "axis": "col",
+   "topup_start": 745,
+   "topup_stride": 1
+  },
+  "worst": 0.083017202065456,
+  "C": 13984,
+  "H": 0.22662149131040465
+ },
+ {
+  "score": 0.08117194773254294,
+  "params": {
+   "species": [
+    1,
+    6,
+    2,
+    5,
+    12
+   ],
+   "stride": 6,
+   "seed_start": 500,
+   "waves": 3,
+   "wave_gap": 120,
+   "axis": "col",
+   "topup_start": null,
+   "topup_stride": 1
+  },
+  "worst": 0.08117194773254294,
+  "C": 10736,
+  "H": 0.20788280364919615
+ },
+ {
+  "score": 0.08069307776494145,
+  "params": {
+   "species": [
+    1,
+    2,
+    5,
+    6,
+    12
+   ],
+   "stride": 4,
+   "seed_start": 680,
+   "waves": 1,
+   "wave_gap": 150,
+   "axis": "col",
+   "topup_start": null,
+   "topup_stride": 1
+  },
+  "worst": 0.08069307776494145,
+  "C": 13519,
+  "H": 0.2866550516320934
+ },
+ {
+  "score": 0.08069307776494145,
+  "params": {
+   "species": [
+    1,
+    2,
+    5,
+    6,
+    12
+   ],
+   "stride": 4,
+   "seed_start": 680,
+   "waves": 3,
+   "wave_gap": 120,
+   "axis": "col",
+   "topup_start": null,
+   "topup_stride": 1
+  },
+  "worst": 0.08069307776494145,
+  "C": 13519,
+  "H": 0.2866550516320934
+ },
+ {
+  "score": 0.08033220690850326,
+  "params": {
+   "species": [
+    1,
+    6,
+    2,
+    5,
+    12
+   ],
+   "stride": 4,
+   "seed_start": 680,
+   "waves": 1,
+   "wave_gap": 150,
+   "axis": "col",
+   "topup_start": null,
+   "topup_stride": 1
+  },
+  "worst": 0.08033220690850326,
+  "C": 13656,
+  "H": 0.3098415615194959
+ },
+ {
+  "score": 0.08033220690850326,
+  "params": {
+   "species": [
+    1,
+    6,
+    2,
+    5,
+    12
+   ],
+   "stride": 4,
+   "seed_start": 680,
+   "waves": 3,
+   "wave_gap": 120,
+   "axis": "col",
+   "topup_start": null,
+   "topup_stride": 1
+  },
+  "worst": 0.08033220690850326,
+  "C": 13656,
+  "H": 0.3098415615194959
+ },
+ {
+  "score": 0.0790171270436946,
+  "params": {
+   "species": [
+    12,
+    5,
+    2,
+    6,
+    1
+   ],
+   "stride": 4,
+   "seed_start": 680,
+   "waves": 1,
+   "wave_gap": 150,
+   "axis": "col",
+   "topup_start": 745,
+   "topup_stride": 1
+  },
+  "worst": 0.0790171270436946,
+  "C": 13914,
+  "H": 0.3095368894999013
+ },
+ {
+  "score": 0.0790171270436946,
+  "params": {
+   "species": [
+    12,
+    5,
+    2,
+    6,
+    1
+   ],
+   "stride": 4,
+   "seed_start": 680,
+   "waves": 3,
+   "wave_gap": 120,
+   "axis": "col",
+   "topup_start": 745,
+   "topup_stride": 1
+  },
+  "worst": 0.0790171270436946,
+  "C": 13914,
+  "H": 0.3095368894999013
+ },
+ {
+  "score": 0.07730577675671718,
+  "params": {
+   "species": [
+    12,
+    5,
+    2,
+    6,
+    1
+   ],
+   "stride": 4,
+   "seed_start": 680,
+   "waves": 1,
+   "wave_gap": 150,
+   "axis": "col",
+   "topup_start": null,
+   "topup_stride": 1
+  },
+  "worst": 0.07730577675671718,
+  "C": 13591,
+  "H": 0.31034138972390624
+ },
+ {
+  "score": 0.07730577675671718,
+  "params": {
+   "species": [
+    12,
+    5,
+    2,
+    6,
+    1
+   ],
+   "stride": 4,
+   "seed_start": 680,
+   "waves": 3,
+   "wave_gap": 120,
+   "axis": "col",
+   "topup_start": null,
+   "topup_stride": 1
+  },
+  "worst": 0.07730577675671718,
+  "C": 13591,
+  "H": 0.31034138972390624
+ },
+ {
+  "score": 0.076938296038768,
+  "params": {
+   "species": [
+    12,
+    6,
+    2,
+    5,
+    1
+   ],
+   "stride": 4,
+   "seed_start": 680,
+   "waves": 1,
+   "wave_gap": 150,
+   "axis": "col",
+   "topup_start": null,
+   "topup_stride": 1
+  },
+  "worst": 0.076938296038768,
+  "C": 13849,
+  "H": 0.22000458552036767
+ },
+ {
+  "score": 0.076938296038768,
+  "params": {
+   "species": [
+    12,
+    6,
+    2,
+    5,
+    1
+   ],
+   "stride": 4,
+   "seed_start": 680,
+   "waves": 3,
+   "wave_gap": 120,
+   "axis": "col",
+   "topup_start": null,
+   "topup_stride": 1
+  },
+  "worst": 0.076938296038768,
+  "C": 13849,
+  "H": 0.22000458552036767
+ },
+ {
+  "score": 0.07081127689748841,
+  "params": {
+   "species": [
+    1,
+    2,
+    5,
+    6,
+    12
+   ],
+   "stride": 4,
+   "seed_start": 620,
+   "waves": 3,
+   "wave_gap": 120,
+   "axis": "col",
+   "topup_start": null,
+   "topup_stride": 1
+  },
+  "worst": 0.07081127689748841,
+  "C": 12018,
+  "H": 0.22392291665983255
+ },
+ {
+  "score": 0.06757386841492541,
+  "params": {
+   "species": [
+    1,
+    5,
+    12,
+    6,
+    2
+   ],
+   "stride": 4,
+   "seed_start": 400,
+   "waves": 3,
+   "wave_gap": 120,
+   "axis": "col",
+   "topup_start": 700,
+   "topup_stride": 1
+  },
+  "worst": 0.06757386841492541,
+  "C": 8937,
+  "H": 0.20848666909139274
+ },
+ {
+  "score": 0.0667100378423885,
+  "params": {
+   "species": [
+    12,
+    5,
+    2,
+    6,
+    1
+   ],
+   "stride": 4,
+   "seed_start": 620,
+   "waves": 3,
+   "wave_gap": 120,
+   "axis": "col",
+   "topup_start": null,
+   "topup_stride": 1
+  },
+  "worst": 0.0667100378423885,
+  "C": 11137,
+  "H": 0.27255723415010913
+ },
+ {
+  "score": 0.06610799115220103,
+  "params": {
+   "species": [
+    12,
+    5,
+    2,
+    6,
+    1
+   ],
+   "stride": 4,
+   "seed_start": 500,
+   "waves": 3,
+   "wave_gap": 120,
+   "axis": "col",
+   "topup_start": null,
+   "topup_stride": 1
+  },
+  "worst": 0.06610799115220103,
+  "C": 10055,
+  "H": 0.20730251712172199
+ },
+ {
+  "score": 0.0649306720353795,
+  "params": {
+   "species": [
+    1,
+    2,
+    5,
+    6,
+    12
+   ],
+   "stride": 6,
+   "seed_start": 680,
+   "waves": 1,
+   "wave_gap": 150,
+   "axis": "col",
+   "topup_start": 700,
+   "topup_stride": 1
+  },
+  "worst": 0.0649306720353795,
+  "C": 7494,
+  "H": 0.2630695745776425
+ },
+ {
+  "score": 0.0649306720353795,
+  "params": {
+   "species": [
+    1,
+    2,
+    5,
+    6,
+    12
+   ],
+   "stride": 6,
+   "seed_start": 680,
+   "waves": 3,
+   "wave_gap": 120,
+   "axis": "col",
+   "topup_start": 700,
+   "topup_stride": 1
+  },
+  "worst": 0.0649306720353795,
+  "C": 7494,
+  "H": 0.2630695745776425
+ },
+ {
+  "score": 0.06408338601284329,
+  "params": {
+   "species": [
+    12,
+    6,
+    2,
+    5,
+    1
+   ],
+   "stride": 4,
+   "seed_start": 620,
+   "waves": 3,
+   "wave_gap": 120,
+   "axis": "col",
+   "topup_start": null,
+   "topup_stride": 1
+  },
+  "worst": 0.06408338601284329,
+  "C": 10953,
+  "H": 0.17934125761262978
+ },
+ {
+  "score": 0.06383846613491999,
+  "params": {
+   "species": [
+    1,
+    6,
+    2,
+    5,
+    12
+   ],
+   "stride": 4,
+   "seed_start": 620,
+   "waves": 3,
+   "wave_gap": 120,
+   "axis": "col",
+   "topup_start": null,
+   "topup_stride": 1
+  },
+  "worst": 0.06383846613491999,
+  "C": 11321,
+  "H": 0.27568316493080003
+ },
+ {
+  "score": 0.062464469795677297,
+  "params": {
+   "species": [
+    1,
+    6,
+    2,
+    5,
+    12
+   ],
+   "stride": 4,
+   "seed_start": 500,
+   "waves": 3,
+   "wave_gap": 120,
+   "axis": "col",
+   "topup_start": null,
+   "topup_stride": 1
+  },
+  "worst": 0.062464469795677297,
+  "C": 10150,
+  "H": 0.20270606014551568
+ },
+ {
+  "score": 0.05953881543622931,
+  "params": {
+   "species": [
+    12,
+    5,
+    2,
+    6,
+    1
+   ],
+   "stride": 6,
+   "seed_start": 400,
+   "waves": 3,
+   "wave_gap": 120,
+   "axis": "col",
+   "topup_start": null,
+   "topup_stride": 1
+  },
+  "worst": 0.05953881543622931,
+  "C": 10545,
+  "H": 0.15523952078178752
+ },
+ {
+  "score": 0.05798307141779801,
+  "params": {
+   "species": [
+    1,
+    2,
+    5,
+    6,
+    12
+   ],
+   "stride": 6,
+   "seed_start": 680,
+   "waves": 1,
+   "wave_gap": 150,
+   "axis": "col",
+   "topup_start": 745,
+   "topup_stride": 1
+  },
+  "worst": 0.05798307141779801,
+  "C": 7405,
+  "H": 0.2601978248445973
+ },
+ {
+  "score": 0.05798307141779801,
+  "params": {
+   "species": [
+    1,
+    2,
+    5,
+    6,
+    12
+   ],
+   "stride": 6,
+   "seed_start": 680,
+   "waves": 3,
+   "wave_gap": 120,
+   "axis": "col",
+   "topup_start": 745,
+   "topup_stride": 1
+  },
+  "worst": 0.05798307141779801,
+  "C": 7405,
+  "H": 0.2601978248445973
+ },
+ {
+  "score": 0.0573338285599453,
+  "params": {
+   "species": [
+    12,
+    6,
+    2,
+    5,
+    1
+   ],
+   "stride": 4,
+   "seed_start": 500,
+   "waves": 3,
+   "wave_gap": 120,
+   "axis": "col",
+   "topup_start": null,
+   "topup_stride": 1
+  },
+  "worst": 0.0573338285599453,
+  "C": 9037,
+  "H": 0.17661936934253197
+ },
+ {
+  "score": 0.05726913617945217,
+  "params": {
+   "species": [
+    1,
+    5,
+    12,
+    6,
+    2
+   ],
+   "stride": 9,
+   "seed_start": 400,
+   "waves": 3,
+   "wave_gap": 120,
+   "axis": "col",
+   "topup_start": 745,
+   "topup_stride": 1
+  },
+  "worst": 0.05726913617945217,
+  "C": 7753,
+  "H": 0.2032091309876296
+ },
+ {
+  "score": 0.05662687254322724,
+  "params": {
+   "species": [
+    1,
+    5,
+    12,
+    6,
+    2
+   ],
+   "stride": 9,
+   "seed_start": 400,
+   "waves": 3,
+   "wave_gap": 120,
+   "axis": "col",
+   "topup_start": 700,
+   "topup_stride": 1
+  },
+  "worst": 0.05662687254322724,
+  "C": 7846,
+  "H": 0.1984769519855042
+ },
+ {
+  "score": 0.0563335040826121,
+  "params": {
+   "species": [
+    12,
+    5,
+    2,
+    6,
+    1
+   ],
+   "stride": 9,
+   "seed_start": 500,
+   "waves": 3,
+   "wave_gap": 120,
+   "axis": "col",
+   "topup_start": 745,
+   "topup_stride": 1
+  },
+  "worst": 0.0563335040826121,
+  "C": 10606,
+  "H": 0.23833924124755446
+ },
+ {
+  "score": 0.05592917392095463,
+  "params": {
+   "species": [
+    12,
+    5,
+    2,
+    6,
+    1
+   ],
+   "stride": 6,
+   "seed_start": 400,
+   "waves": 3,
+   "wave_gap": 120,
+   "axis": "col",
+   "topup_start": 745,
+   "topup_stride": 1
+  },
+  "worst": 0.05592917392095463,
+  "C": 10369,
+  "H": 0.14807176598773739
+ },
+ {
+  "score": 0.055396928946130734,
+  "params": {
+   "species": [
+    1,
+    5,
+    12,
+    6,
+    2
+   ],
+   "stride": 4,
+   "seed_start": 620,
+   "waves": 3,
+   "wave_gap": 120,
+   "axis": "col",
+   "topup_start": null,
+   "topup_stride": 1
+  },
+  "worst": 0.055396928946130734,
+  "C": 10359,
+  "H": 0.23242862478769155
+ },
+ {
+  "score": 0.05539452335634088,
+  "params": {
+   "species": [
+    12,
+    5,
+    2,
+    6,
+    1
+   ],
+   "stride": 6,
+   "seed_start": 400,
+   "waves": 3,
+   "wave_gap": 120,
+   "axis": "col",
+   "topup_start": 700,
+   "topup_stride": 1
+  },
+  "worst": 0.05539452335634088,
+  "C": 10465,
+  "H": 0.1452951834110929
+ },
+ {
+  "score": 0.055043920622949535,
+  "params": {
+   "species": [
+    12,
+    5,
+    2,
+    6,
+    1
+   ],
+   "stride": 9,
+   "seed_start": 400,
+   "waves": 3,
+   "wave_gap": 120,
+   "axis": "col",
+   "topup_start": 700,
+   "topup_stride": 1
+  },
+  "worst": 0.055043920622949535,
+  "C": 9729,
+  "H": 0.18713418222537895
+ },
+ {
+  "score": 0.05503931615407839,
+  "params": {
+   "species": [
+    12,
+    5,
+    2,
+    6,
+    1
+   ],
+   "stride": 9,
+   "seed_start": 500,
+   "waves": 3,
+   "wave_gap": 120,
+   "axis": "col",
+   "topup_start": 700,
+   "topup_stride": 1
+  },
+  "worst": 0.05503931615407839,
+  "C": 10301,
+  "H": 0.156862009171494
+ },
+ {
+  "score": 0.05449909821863238,
+  "params": {
+   "species": [
+    1,
+    2,
+    5,
+    6,
+    12
+   ],
+   "stride": 9,
+   "seed_start": 620,
+   "waves": 3,
+   "wave_gap": 120,
+   "axis": "col",
+   "topup_start": 745,
+   "topup_stride": 1
+  },
+  "worst": 0.05449909821863238,
+  "C": 11772,
+  "H": 0.18541593201213669
+ },
+ {
+  "score": 0.05448361011662417,
+  "params": {
+   "species": [
+    12,
+    5,
+    2,
+    6,
+    1
+   ],
+   "stride": 9,
+   "seed_start": 620,
+   "waves": 3,
+   "wave_gap": 120,
+   "axis": "col",
+   "topup_start": 745,
+   "topup_stride": 1
+  },
+  "worst": 0.05448361011662417,
+  "C": 9949,
+  "H": 0.29966623110352797
+ },
+ {
+  "score": 0.054295661257788924,
+  "params": {
+   "species": [
+    12,
+    5,
+    2,
+    6,
+    1
+   ],
+   "stride": 9,
+   "seed_start": 400,
+   "waves": 3,
+   "wave_gap": 120,
+   "axis": "col",
+   "topup_start": 745,
+   "topup_stride": 1
+  },
+  "worst": 0.054295661257788924,
+  "C": 9678,
+  "H": 0.18287119659252268
+ },
+ {
+  "score": 0.054251517362891265,
+  "params": {
+   "species": [
+    12,
+    5,
+    2,
+    6,
+    1
+   ],
+   "stride": 9,
+   "seed_start": 500,
+   "waves": 3,
+   "wave_gap": 120,
+   "axis": "col",
+   "topup_start": null,
+   "topup_stride": 1
+  },
+  "worst": 0.054251517362891265,
+  "C": 10556,
+  "H": 0.24999122531175919
+ },
+ {
+  "score": 0.05424838352383411,
+  "params": {
+   "species": [
+    1,
+    5,
+    12,
+    6,
+    2
+   ],
+   "stride": 9,
+   "seed_start": 400,
+   "waves": 3,
+   "wave_gap": 120,
+   "axis": "col",
+   "topup_start": null,
+   "topup_stride": 1
+  },
+  "worst": 0.05424838352383411,
+  "C": 7768,
+  "H": 0.19188910100512802
+ },
+ {
+  "score": 0.0540726874413263,
+  "params": {
+   "species": [
+    12,
+    6,
+    2,
+    5,
+    1
+   ],
+   "stride": 9,
+   "seed_start": 500,
+   "waves": 3,
+   "wave_gap": 120,
+   "axis": "col",
+   "topup_start": 700,
+   "topup_stride": 1
+  },
+  "worst": 0.0540726874413263,
+  "C": 8600,
+  "H": 0.1757130403241049
+ },
+ {
+  "score": 0.05401518237860617,
+  "params": {
+   "species": [
+    1,
+    6,
+    2,
+    5,
+    12
+   ],
+   "stride": 9,
+   "seed_start": 620,
+   "waves": 3,
+   "wave_gap": 120,
+   "axis": "col",
+   "topup_start": 745,
+   "topup_stride": 1
+  },
+  "worst": 0.05401518237860617,
+  "C": 10944,
+  "H": 0.27368898554452126
+ },
+ {
+  "score": 0.05375629666306527,
+  "params": {
+   "species": [
+    12,
+    6,
+    2,
+    5,
+    1
+   ],
+   "stride": 9,
+   "seed_start": 500,
+   "waves": 3,
+   "wave_gap": 120,
+   "axis": "col",
+   "topup_start": null,
+   "topup_stride": 1
+  },
+  "worst": 0.05375629666306527,
+  "C": 8556,
+  "H": 0.175586492654127
+ },
+ {
+  "score": 0.05361651254153004,
+  "params": {
+   "species": [
+    12,
+    5,
+    2,
+    6,
+    1
+   ],
+   "stride": 9,
+   "seed_start": 400,
+   "waves": 3,
+   "wave_gap": 120,
+   "axis": "col",
+   "topup_start": null,
+   "topup_stride": 1
+  },
+  "worst": 0.05361651254153004,
+  "C": 9765,
+  "H": 0.18349958150118584
+ },
+ {
+  "score": 0.053290475888751805,
+  "params": {
+   "species": [
+    12,
+    6,
+    2,
+    5,
+    1
+   ],
+   "stride": 9,
+   "seed_start": 500,
+   "waves": 3,
+   "wave_gap": 120,
+   "axis": "col",
+   "topup_start": 745,
+   "topup_stride": 1
+  },
+  "worst": 0.053290475888751805,
+  "C": 8548,
+  "H": 0.17416628268263273
+ },
+ {
+  "score": 0.05318355158945368,
+  "params": {
+   "species": [
+    1,
+    6,
+    2,
+    5,
+    12
+   ],
+   "stride": 6,
+   "seed_start": 400,
+   "waves": 3,
+   "wave_gap": 120,
+   "axis": "col",
+   "topup_start": 700,
+   "topup_stride": 1
+  },
+  "worst": 0.05318355158945368,
+  "C": 10043,
+  "H": 0.14489017982210342
+ },
+ {
+  "score": 0.05269857276324833,
+  "params": {
+   "species": [
+    1,
+    2,
+    5,
+    6,
+    12
+   ],
+   "stride": 9,
+   "seed_start": 400,
+   "waves": 3,
+   "wave_gap": 120,
+   "axis": "col",
+   "topup_start": 745,
+   "topup_stride": 1
+  },
+  "worst": 0.05269857276324833,
+  "C": 11369,
+  "H": 0.12945931779104225
+ },
+ {
+  "score": 0.0521289040846227,
+  "params": {
+   "species": [
+    1,
+    2,
+    5,
+    6,
+    12
+   ],
+   "stride": 6,
+   "seed_start": 680,
+   "waves": 1,
+   "wave_gap": 150,
+   "axis": "col",
+   "topup_start": null,
+   "topup_stride": 1
+  },
+  "worst": 0.0521289040846227,
+  "C": 7362,
+  "H": 0.2535748408036231
+ },
+ {
+  "score": 0.0521289040846227,
+  "params": {
+   "species": [
+    1,
+    2,
+    5,
+    6,
+    12
+   ],
+   "stride": 6,
+   "seed_start": 680,
+   "waves": 3,
+   "wave_gap": 120,
+   "axis": "col",
+   "topup_start": null,
+   "topup_stride": 1
+  },
+  "worst": 0.0521289040846227,
+  "C": 7362,
+  "H": 0.2535748408036231
+ },
+ {
+  "score": 0.052015983586900426,
+  "params": {
+   "species": [
+    1,
+    5,
+    12,
+    6,
+    2
+   ],
+   "stride": 9,
+   "seed_start": 500,
+   "waves": 3,
+   "wave_gap": 120,
+   "axis": "col",
+   "topup_start": 745,
+   "topup_stride": 1
+  },
+  "worst": 0.052015983586900426,
+  "C": 7851,
+  "H": 0.19186909193477827
+ },
+ {
+  "score": 0.05173069671031611,
+  "params": {
+   "species": [
+    1,
+    6,
+    2,
+    5,
+    12
+   ],
+   "stride": 4,
+   "seed_start": 400,
+   "waves": 3,
+   "wave_gap": 120,
+   "axis": "col",
+   "topup_start": 745,
+   "topup_stride": 1
+  },
+  "worst": 0.05173069671031611,
+  "C": 9634,
+  "H": 0.14578652766012462
+ },
+ {
+  "score": 0.05172448213371206,
+  "params": {
+   "species": [
+    12,
+    5,
+    2,
+    6,
+    1
+   ],
+   "stride": 9,
+   "seed_start": 400,
+   "waves": 1,
+   "wave_gap": 150,
+   "axis": "col",
+   "topup_start": 700,
+   "topup_stride": 1
+  },
+  "worst": 0.05172448213371206,
+  "C": 10017,
+  "H": 0.17218206087484406
+ },
+ {
+  "score": 0.05119141819435993,
+  "params": {
+   "species": [
+    1,
+    2,
+    5,
+    6,
+    12
+   ],
+   "stride": 4,
+   "seed_start": 500,
+   "waves": 3,
+   "wave_gap": 120,
+   "axis": "col",
+   "topup_start": null,
+   "topup_stride": 1
+  },
+  "worst": 0.05119141819435993,
+  "C": 9382,
+  "H": 0.15042743543129108
+ },
+ {
+  "score": 0.05104731059536038,
+  "params": {
+   "species": [
+    1,
+    6,
+    2,
+    5,
+    12
+   ],
+   "stride": 9,
+   "seed_start": 500,
+   "waves": 3,
+   "wave_gap": 120,
+   "axis": "col",
+   "topup_start": 745,
+   "topup_stride": 1
+  },
+  "worst": 0.05104731059536038,
+  "C": 10546,
+  "H": 0.17773193267187826
+ },
+ {
+  "score": 0.050693756341471,
+  "params": {
+   "species": [
+    1,
+    5,
+    12,
+    6,
+    2
+   ],
+   "stride": 6,
+   "seed_start": 400,
+   "waves": 1,
+   "wave_gap": 150,
+   "axis": "col",
+   "topup_start": 700,
+   "topup_stride": 1
+  },
+  "worst": 0.050693756341471,
+  "C": 9556,
+  "H": 0.1803108659753915
+ },
+ {
+  "score": 0.050362964391838586,
+  "params": {
+   "species": [
+    1,
+    6,
+    2,
+    5,
+    12
+   ],
+   "stride": 9,
+   "seed_start": 500,
+   "waves": 3,
+   "wave_gap": 120,
+   "axis": "col",
+   "topup_start": null,
+   "topup_stride": 1
+  },
+  "worst": 0.050362964391838586,
+  "C": 10596,
+  "H": 0.17981242148455817
+ },
+ {
+  "score": 0.05010284267450201,
+  "params": {
+   "species": [
+    1,
+    6,
+    2,
+    5,
+    12
+   ],
+   "stride": 9,
+   "seed_start": 500,
+   "waves": 3,
+   "wave_gap": 120,
+   "axis": "col",
+   "topup_start": 700,
+   "topup_stride": 1
+  },
+  "worst": 0.05010284267450201,
+  "C": 10391,
+  "H": 0.13574185385852972
+ },
+ {
+  "score": 0.04979856081567223,
+  "params": {
+   "species": [
+    1,
+    5,
+    12,
+    6,
+    2
+   ],
+   "stride": 9,
+   "seed_start": 500,
+   "waves": 3,
+   "wave_gap": 120,
+   "axis": "col",
+   "topup_start": null,
+   "topup_stride": 1
+  },
+  "worst": 0.04979856081567223,
+  "C": 8013,
+  "H": 0.18863461808726584
+ },
+ {
+  "score": 0.04969311588354246,
+  "params": {
+   "species": [
+    12,
+    5,
+    2,
+    6,
+    1
+   ],
+   "stride": 9,
+   "seed_start": 500,
+   "waves": 1,
+   "wave_gap": 150,
+   "axis": "col",
+   "topup_start": 700,
+   "topup_stride": 1
+  },
+  "worst": 0.04969311588354246,
+  "C": 10083,
+  "H": 0.17766943265160806
+ },
+ {
+  "score": 0.04934685275421788,
+  "params": {
+   "species": [
+    1,
+    2,
+    5,
+    6,
+    12
+   ],
+   "stride": 9,
+   "seed_start": 400,
+   "waves": 3,
+   "wave_gap": 120,
+   "axis": "col",
+   "topup_start": 700,
+   "topup_stride": 1
+  },
+  "worst": 0.04934685275421788,
+  "C": 11322,
+  "H": 0.12166503124115685
+ },
+ {
+  "score": 0.04915976951277292,
+  "params": {
+   "species": [
+    1,
+    6,
+    2,
+    5,
+    12
+   ],
+   "stride": 9,
+   "seed_start": 400,
+   "waves": 3,
+   "wave_gap": 120,
+   "axis": "col",
+   "topup_start": 745,
+   "topup_stride": 1
+  },
+  "worst": 0.04915976951277292,
+  "C": 10900,
+  "H": 0.13381565360573014
+ },
+ {
+  "score": 0.04858914543242598,
+  "params": {
+   "species": [
+    1,
+    2,
+    5,
+    6,
+    12
+   ],
+   "stride": 9,
+   "seed_start": 400,
+   "waves": 3,
+   "wave_gap": 120,
+   "axis": "col",
+   "topup_start": null,
+   "topup_stride": 1
+  },
+  "worst": 0.04858914543242598,
+  "C": 11365,
+  "H": 0.11935644217219363
+ },
+ {
+  "score": 0.04806174598989548,
+  "params": {
+   "species": [
+    1,
+    6,
+    2,
+    5,
+    12
+   ],
+   "stride": 9,
+   "seed_start": 400,
+   "waves": 3,
+   "wave_gap": 120,
+   "axis": "col",
+   "topup_start": 700,
+   "topup_stride": 1
+  },
+  "worst": 0.04806174598989548,
+  "C": 10768,
+  "H": 0.12220274015284273
+ },
+ {
+  "score": 0.04781667853256731,
+  "params": {
+   "species": [
+    1,
+    6,
+    2,
+    5,
+    12
+   ],
+   "stride": 6,
+   "seed_start": 680,
+   "waves": 1,
+   "wave_gap": 150,
+   "axis": "col",
+   "topup_start": 700,
+   "topup_stride": 1
+  },
+  "worst": 0.04781667853256731,
+  "C": 7613,
+  "H": 0.26221686071650985
+ },
+ {
+  "score": 0.04781667853256731,
+  "params": {
+   "species": [
+    1,
+    6,
+    2,
+    5,
+    12
+   ],
+   "stride": 6,
+   "seed_start": 680,
+   "waves": 3,
+   "wave_gap": 120,
+   "axis": "col",
+   "topup_start": 700,
+   "topup_stride": 1
+  },
+  "worst": 0.04781667853256731,
+  "C": 7613,
+  "H": 0.26221686071650985
+ },
+ {
+  "score": 0.04747083111111235,
+  "params": {
+   "species": [
+    12,
+    6,
+    2,
+    5,
+    1
+   ],
+   "stride": 9,
+   "seed_start": 620,
+   "waves": 3,
+   "wave_gap": 120,
+   "axis": "col",
+   "topup_start": 745,
+   "topup_stride": 1
+  },
+  "worst": 0.04747083111111235,
+  "C": 9681,
+  "H": 0.20187868758705113
+ },
+ {
+  "score": 0.04706630503298819,
+  "params": {
+   "species": [
+    1,
+    6,
+    2,
+    5,
+    12
+   ],
+   "stride": 9,
+   "seed_start": 400,
+   "waves": 3,
+   "wave_gap": 120,
+   "axis": "col",
+   "topup_start": null,
+   "topup_stride": 1
+  },
+  "worst": 0.04706630503298819,
+  "C": 10935,
+  "H": 0.11716765126225816
+ },
+ {
+  "score": 0.04668500699384141,
+  "params": {
+   "species": [
+    12,
+    5,
+    2,
+    6,
+    1
+   ],
+   "stride": 6,
+   "seed_start": 500,
+   "waves": 3,
+   "wave_gap": 120,
+   "axis": "col",
+   "topup_start": 745,
+   "topup_stride": 1
+  },
+  "worst": 0.04668500699384141,
+  "C": 10526,
+  "H": 0.22285689141227297
+ },
+ {
+  "score": 0.04636808654459789,
+  "params": {
+   "species": [
+    12,
+    6,
+    2,
+    5,
+    1
+   ],
+   "stride": 4,
+   "seed_start": 400,
+   "waves": 3,
+   "wave_gap": 120,
+   "axis": "col",
+   "topup_start": 700,
+   "topup_stride": 1
+  },
+  "worst": 0.04636808654459789,
+  "C": 8650,
+  "H": 0.14973449382275325
+ },
+ {
+  "score": 0.04628376289076655,
+  "params": {
+   "species": [
+    12,
+    6,
+    2,
+    5,
+    1
+   ],
+   "stride": 9,
+   "seed_start": 400,
+   "waves": 3,
+   "wave_gap": 120,
+   "axis": "col",
+   "topup_start": 700,
+   "topup_stride": 1
+  },
+  "worst": 0.04628376289076655,
+  "C": 8481,
+  "H": 0.15235318875165774
+ },
+ {
+  "score": 0.045269608516851544,
+  "params": {
+   "species": [
+    12,
+    5,
+    2,
+    6,
+    1
+   ],
+   "stride": 4,
+   "seed_start": 400,
+   "waves": 3,
+   "wave_gap": 120,
+   "axis": "col",
+   "topup_start": 700,
+   "topup_stride": 1
+  },
+  "worst": 0.045269608516851544,
+  "C": 9652,
+  "H": 0.12911400378537602
+ },
+ {
+  "score": 0.04501331468221404,
+  "params": {
+   "species": [
+    12,
+    6,
+    2,
+    5,
+    1
+   ],
+   "stride": 9,
+   "seed_start": 400,
+   "waves": 3,
+   "wave_gap": 120,
+   "axis": "col",
+   "topup_start": null,
+   "topup_stride": 1
+  },
+  "worst": 0.04501331468221404,
+  "C": 8479,
+  "H": 0.1482641792000554
+ }
+]
