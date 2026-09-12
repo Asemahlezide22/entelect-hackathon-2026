@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# IDE
+.idea/
+.vscode/
+
+# Packaged submission archives (regenerate with level1/package.py)
+*.zip
+
+# OS
+Thumbs.db
+desktop.ini
+.DS_Store
