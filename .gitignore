@@ -11,6 +11,7 @@ venv/
 
 # Packaged submission archives (regenerate with level1/package.py)
 *.zip
+!level2_code.zip
 
 # OS
 Thumbs.db
