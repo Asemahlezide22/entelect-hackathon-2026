@@ -12,32 +12,38 @@ Python 3.13, standard library only. No dependencies, no network, no randomness.
 
 ## Quick start
 
+Each level folder runs standalone:
+
 ```bash
-cd level1
-py generate_solution.py     # writes out/solution.json
+cd level2
+py generate_solution.py     # writes out/solution_level2.json
 py validate_solution.py     # schema + constraint check
 py simulate_solution.py     # local score estimate
-py optimise_all.py          # parameter sweep across all four levels
 ```
+
+Same three commands in `level3/` and `level4/`.
 
 ## Layout
 
 ```
-level1/
-  data/              level1–4 level files + the four shared resource files
-  photospheria/      world, plants, simulator, scoring, solution I/O, config
-  strategies/        phased_paint, seed_spread, level2_ladder
-  out/               generated solutions and optimiser reports
-  submitted/         the solutions actually submitted
-  generate_solution.py  validate_solution.py  simulate_solution.py
-  optimise.py  optimise_all.py  optimise_levels.py  package.py
-resources/           plant/animal datasets, classifications, unlock conditions
+level1/   working directory: engine, strategies, experiments, all four level files
+level2/   self-contained level 2 submission
+level3/   self-contained level 3 submission
+level4/   self-contained level 4 submission
+resources/             plant/animal datasets, classifications, unlock conditions
 problem-statement.txt  extracted text of the official problem statement
 rca.txt                extracted text of the Root Cause Analysis briefing
 ```
 
-Despite the folder name, `level1/` holds the engine and strategies for **all
-four levels** — the level files live side by side in `level1/data/`.
+`level2/`, `level3/` and `level4/` are each a complete, standalone submission —
+their own `data/level*.json`, `photospheria/` engine, `strategies/`, and the
+generated `out/solution_level*.json`. They share most of their code, so they are
+deliberately duplicated rather than cross-referenced; each folder runs on its
+own with nothing else present.
+
+`level1/` is the working directory the others were built from. It holds all four
+level files side by side in `level1/data/`, plus the calibration and parameter
+sweep experiments.
 
 ## Approach
 
